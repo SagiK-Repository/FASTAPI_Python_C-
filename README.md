@@ -9,7 +9,7 @@ Fast API in Python And C#
 
 ### 목표
 * [ ] FastAPI
-  * [ ] FastAPI에 대해서 조사합니다.
+  * [x] FastAPI에 대해서 조사합니다.
   * [ ] FastAPI를 이용하여 간단한 RESTful API를 구현합니다.
   * [ ] 서비스로 등록하여 실행합니다.
     * [ ] Window C#
