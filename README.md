@@ -34,3 +34,46 @@ Fast API in Python And C#
 [@SAgiKPJH](https://github.com/SAgiKPJH)
 
 ---
+
+# FastAPI에 대해서 조사합니다.
+
+### FastAPI란?
+- [-웹 프레임워크-]
+- [-Python 3.7 이상-] 버전에서 [-작동-]하는 웹 프레임워크 
+- 비동기식(Asynchronous) 코드를 지원
+- 빠른 속도와 적은 양의 코드로 RESTful API를 구현
+
+### RESTful이란?
+
+- Representational State Transfer
+- 웹의 장점을 최대한 활용할 수 있는 아키텍처
+- RESTful API는 REST 아키텍처 스타일의 제약 조건을 준수하고 RESTful 웹 서비스와 상호 작용할 수 있도록 하는 애플리케이션 프로그래밍 인터페이스(API)
+
+### 참고 사이트
+- [FastAIP Tutorial](https://fastapi.tiangolo.com/ko/tutorial/)
+- [FastAPI First Steps](https://fastapi.tiangolo.com/ko/tutorial/first-steps/)
+- [네트워크 REST API란? REST RESTful이란?](https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80)
+
+<br><br><br>
+
+#
+
+<br><br><br>
+
+#
+
+<br><br><br>
+
+#
+
+<br><br><br>
+
+#
+
+<br><br><br>
+
+#
+
+<br><br><br>
+
+#
