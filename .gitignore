@@ -1,1 +1,5 @@
 ﻿*.pyc
+*.wsuo
+.vs
+c#/FastAPI_CSharp/bin
+c#/FastAPI_CSharp/obj
