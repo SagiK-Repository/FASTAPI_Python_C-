@@ -56,7 +56,40 @@ Fast API in Python And C#
 
 <br><br><br>
 
-#
+# FastAPI를 이용하여 간단한 RESTful API를 구현합니다.
+
+### python
+
+1. FastAPI 설치 및 간단 구성
+   ```bash
+   pip install fastapi
+
+   # FastAPI 실시간 미리보기 라이브러리
+   pip install "uvicorn[standard]"
+   ```
+   - FastAPI 인스턴스를 생성하고 "/" 경로로 들어오는 GET 요청에 대해 "Hello World" 메시지를 반환
+   ```py
+   from fastapi import FastAPI
+
+   app = FastAPI()
+
+   @app.get("/")
+   def read_root():
+       return {"Hello": "World"}
+   ```
+   ![image](https://user-images.githubusercontent.com/66783849/228773734-2a67ee25-9fb0-472e-b62a-283d128e2b49.png)  
+2. FastAPI 서버 실행 및 접속
+   ```bash
+   # main.py 파일에서 app 객체를 가져와서 Uvicorn 서버를 시작
+   #  "--reload" 플래그를 사용하면 코드가 변경될 때마다 자동으로 서버가 재시작
+   uvicorn main:app --reload
+
+   # Directory 안에 존재할 경우, "/"가 아닌 "."으로 구분합니다.
+   uvicorn python.fastapi:app --reload # python/fastaip.py인 경우
+   ```
+   - `http://localhost:8000`로 접속
+   - 또는 CLI `curl http://localhost:8000`를 통하여 GET 요청  
+   ![image](https://user-images.githubusercontent.com/66783849/228773807-999313f3-d2c8-4682-a2c8-28eb4e6cbc90.png)
 
 <br><br><br>
 

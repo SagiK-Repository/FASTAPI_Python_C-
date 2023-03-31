@@ -1,4 +1,4 @@
-# uvicorn main:app --reload
+# uvicorn python.fastapi:app --reload
 
 from fastapi import FastAPI
 

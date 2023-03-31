@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace FastAPI_CSharp
 {
@@ -10,7 +6,7 @@ namespace FastAPI_CSharp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("test");
+
         }
     }
 }
